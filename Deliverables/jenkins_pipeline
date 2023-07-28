@@ -13,7 +13,7 @@ pipeline{
     stages{
         stage('Git checkout'){
             steps{
-                git url: 'https://github.com/debasis-gif/spring-framework-petclinic.git'
+                git url: 'https://github.com/dvelatcodes/spring-framework-petclinic.git'
             }
         }
         stage('Terraform - Env Variables Access & Secret Keys:'){
